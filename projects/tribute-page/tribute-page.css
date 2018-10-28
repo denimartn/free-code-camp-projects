@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+/* global */
+html, body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* typography */
+h1 {
+  font-size: 48px;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+
+h3, h4 {
+  font-weight: 800;
+}
+
+h3 {
+  margin-bottom: 40px;
+}
+
+h4 {
+  margin-bottom: 8px;
+}
+
+a {
+  color: black;
+  font-weight: 800;
+}
+
+a:hover {
+  background-color: #e6e6e6;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: lightgrey;
+  margin: 40px 0;
+}
+
+.fixed {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 400px;
+  background: grey url("https://sociologicamente.it/wp-content/uploads/2017/10/Bauman4.jpg") center/cover no-repeat;
+}
+
+.scroll {
+  background: white;
+  margin-top: 400px;
+  z-index: 1;
+  position: relative;
+  padding: 80px 20px;
+}
+
+.center {
+  max-width: 700px;
+  position: relative;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  list-style-type: none;
+}
+
+ul li {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+.date {
+  background-color: black;
+  margin-right: 8px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 14px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.section-quote {
+  display: flex;
+}
+
+.section-quote blockquote {
+  margin-left: 16px;
+}
+
+.quote-author, #img-caption {
+  display: inline-block;
+  font-size: 12px;
+  font-style: italic;
+  color: grey;
+  margin-top: 8px;
+}
+
+.source {
+  padding: 0 8px;
+  border-right: 1px solid lightgrey;
+}
+
+.source:first-child {
+  padding-left: 0;
+}
+
+.source:last-child {
+  border-right: none;
+}
+
+#img-div {
+  position: relative;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.denimartn {
+  text-align: center;
+  margin-top: 80px;
+  display: inline-block;
+}

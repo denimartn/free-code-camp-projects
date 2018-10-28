@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey-form.css">
+</head>
+
+<body>
+
+    <main>
+
+        <section>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Let us know how we can improve freeCodeCamp!</p>
+        </section>
+
+        <section class="center">
+
+            <form id="survey-form">
+
+                <div class="form-row">
+                    <label id="name-label" for="name">* Name:</label>
+                    <input id="name" type="text" name="firstname" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-row">
+                    <label id="email-label" for="email">* Email:</label>
+                    <input id="email" type="email" name="mail" placeholder="Enter a valid email adress" required>
+                </div>
+
+                <div class="form-row">
+                    <label id="number-label" for="number">* Age:</label>
+                    <input id="number" type="number" name="age" placeholder="Age" min="1" max="100" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="dropdown"> Which option best describes your current role? </label>
+                    <select id="dropdown">
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="student">Student</option>
+                        <option value="full time job">Full time job</option>
+                        <option value="full time learner">Full time learner</option>
+                        <option value="prefer not to say">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-row buttons">
+                    <legend>*How likely is that you would recommend freeCodeCamp to a friend?</legend>
+                    <div id="x">
+                        <input type="radio" name="choice" value="definitely">
+                        <label>Definitely</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="choice" value="maybe">
+                        <label>Maybe</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="choice" value="not sure">
+                        <label>Not sure</label>
+                    </div>
+                </div>
+
+                <div class="form-row checkboxes">
+                    <legend>
+                        Things that should be improved in the future<br>
+                        (Check all that apply):
+                    </legend>
+
+
+                    <div>
+                        <input type="checkbox" name="improving" value="front-end projects">
+                        <label>front-end projects</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improving" value="Back-end Projects">
+                        <label>Back-end Projects</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improving" value="Data Visualization">
+                        <label>Data Visualization</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improving" value="Challenges">
+                        <label>Challenges</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improving" value="Open Source Community">
+                        <label>Open Source Community</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improving" value="Gitter help rooms">
+                        <label>Gitter help rooms</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improving" value="Videos">
+                        <label>Videos</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improving" value="City Meetups">
+                        <label>City Meetups</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improving" value="Wiki">
+                        <label>Wiki</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improving" value="Forum">
+                        <label>Forum</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improving" value="Additional Courses">
+                        <label>Additional Courses</label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label for="comment"> Any Comments or Suggestions? </label>
+                    <textarea id="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+
+                <div class="form-row">
+                    <button class="click" id="submit" type="submit">Submit</button>
+                </div>
+
+            </form>
+        </section>
+
+        <section>
+            <p class="denimartn">Made with ❤️ by <a href="https://github.com/denimartn" target="_blank">denimartn</a></p>
+        </section>
+
+    </main>
+
+    <!-- FCC test script -->
+    <!-- <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script> -->
+
+</body>
+
+</html>
